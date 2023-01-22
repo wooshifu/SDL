@@ -507,7 +507,7 @@ register_methods(JNIEnv *env, const char *classname, JNINativeMethod *methods, i
 }
 
 /* Library init */
-JNIEXPORT jint JNICALL JNI_OnLoad(JavaVM *vm, void *reserved)
+JNIEXPORT jint JNICALL SDL_JNI_OnLoad(JavaVM *vm, void *reserved)
 {
     JNIEnv *env = NULL;
 
